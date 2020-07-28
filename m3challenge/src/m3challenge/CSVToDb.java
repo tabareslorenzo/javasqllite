@@ -44,11 +44,11 @@ public class CSVToDb {
 			{
 				fail = true;
 			}
-			for(int i = 0; i < str.size(); i++)
-			{
-//	
-//				
-			}
+// 			for(int i = 0; i < str.size(); i++)
+// 			{
+// //	
+// //				
+// 			}
 			if(fail)
 			{
 				failedList.add(str);
