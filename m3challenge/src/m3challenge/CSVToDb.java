@@ -141,7 +141,7 @@ public class CSVToDb {
         }
     }
 	public static void insert(List<String> list) {
-		String url = "jdbc:sqlite:tests.db";
+		String url = "jdbc:sqlite:" + filename + ".db";
 
 
         String sql = "INSERT INTO logs VALUES(?,?,?,?,?,?,?,?,?,?)";
